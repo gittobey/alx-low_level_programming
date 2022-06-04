@@ -18,8 +18,8 @@ int main(void)
 		{
 			if (a+b != 18 && a>b)
 			{
-				putchar('0'+d);
-				putchar('0'+c);	
+				putchar('0'+b);
+				putchar('0'+a);	
 				if (a+b<16){
 					putchar(',');
 					putchar(' ');
