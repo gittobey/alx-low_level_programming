@@ -18,13 +18,13 @@ int main(void)
 		{
 			if (a+b != 18 && a>b)
 			{	
-				if (c+d!=17){
+				if (a+b!=17){
 					putchar('0'+b);
 					putchar('0'+a);
 					putchar(',');
 					putchar(' ');
 				}
-				else if (c+d==17){
+				else if (a+b==17){
 					putchar('0' +b);
 					putchar('0'+a);
 					putchar('\n');
