@@ -8,19 +8,20 @@
  *      */
 int main(void)
 {
-	int a=0;
+	int a = 0;
 	int b = 0;
 	
 	while (b < 10)
 	{
-		a= 0;
+		a = 0;
 		while (a < 10)
 		{
-			if (a+b != 18 && a>b)
+			if ( a + b != 18 && a > b)
 			{
-				putchar('0'+b);
-				putchar('0'+a);	
-				if (a+b<=16){
+				putchar('0' + b);
+				putchar('0' + a);	
+				if ( a + b <= 16)
+				{
 					putchar(',');
 					putchar(' ');
 				}
@@ -30,5 +31,5 @@ int main(void)
 		b++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
