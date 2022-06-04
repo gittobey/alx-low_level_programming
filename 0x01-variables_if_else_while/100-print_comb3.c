@@ -17,10 +17,10 @@ int main(void)
 		while (a < 10)
 		{
 			if (a+b != 18 && a>b)
-			{	
+			{
+				putchar('0'+d);
+				putchar('0'+c);	
 				if (a+b<16){
-					putchar('0'+b);
-					putchar('0'+a);
 					putchar(',');
 					putchar(' ');
 				}
