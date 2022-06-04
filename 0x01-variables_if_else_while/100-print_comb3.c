@@ -13,14 +13,13 @@ int main(void)
 	
 	while (b < 10)
 	{
-		a = 1;
+		a =0;
 		while (a < 10)
 		{
-			putchar('0' + b);
-			putchar('0' + a);
-
-			if (a + b != 18)
+			if (a + b != 18 && b>a)
 			{
+				putchar('0'+b);
+				putchar('0'+a);
 				putchar(',');
 				putchar(' ');
 			}
