@@ -23,10 +23,12 @@ int main(void)
 					putchar('0'+a);
 					putchar(',');
 					putchar(' ');
+				}
 				else if (c+d==17){
 					putchar('0' +b);
 					putchar('0'+a);
 					putchar('\n');
+				}
 
 			}
 			a++;
