@@ -18,10 +18,10 @@ int main(void)
 		{
 			if (a+b != 18 && a>b)
 			{
-				putchar('0'+b)
-				putchar('0'+a)
-				putchar(',')
-				putchar(' ')
+				putchar('0'+b);
+				putchar('0'+a;)
+				putchar(',');
+				putchar(' ');
 
 			}
 			a++;
