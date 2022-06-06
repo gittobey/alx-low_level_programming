@@ -21,23 +21,22 @@ int main(void)
 			while (a < 10)
 			{
 				if (a > b && b > c)
-	                        {
+				{
 					putchar('0' + c);
 					putchar('0' + b);
 					putchar('0' + a);
 					if (a + b + c <= 23)
-				       	{
+					{
 						putchar(',');
-						putchar(' ');
-			
+						putchar(' ');			
 					}
 				}
 				a++;
 			}
-	                b++;
+			b++;
 		}
 		c++;
 	}
 	putchar('\n');
-        return (0);
+	return (0);
 }
