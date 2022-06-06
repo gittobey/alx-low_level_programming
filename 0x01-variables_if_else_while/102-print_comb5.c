@@ -13,7 +13,7 @@ int main(void)
 
 	while (f < 10)
 	{
-		e = 0
+		e = 0;
 		while (e < 10)
 		{
 			d = 0;
@@ -26,7 +26,7 @@ int main(void)
 					{
 						putchar('0' + f);
 						putchar('0' + e);
-						putchar(' ')
+						putchar(' ');
 						putchar('0' + d);
 						putchar('0' + c);
 						if (!(f + e ==18 && c + d == 17 && d == 9))
