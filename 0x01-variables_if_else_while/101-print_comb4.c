@@ -28,7 +28,7 @@ int main(void)
 					if (a + b + c <= 23)
 					{
 						putchar(',');
-						putchar(' ');			
+						putchar(' ');
 					}
 				}
 				a++;
