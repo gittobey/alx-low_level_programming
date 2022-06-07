@@ -5,8 +5,9 @@
 *   *
 *    * Return: void
 */
-void print_alphabet_x10(void)//prints a-z 10x
+void print_alphabet_x10(void)
 {
+	//prints a-z 10x
 	int x;
 	int i;
 
