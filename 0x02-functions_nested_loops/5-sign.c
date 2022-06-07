@@ -5,7 +5,7 @@
  *   * @n: the input to be checked
  *    *
  *     * Return: 1 if +, 0 if sign is 0, and -1 if sign is negative
- *      */
+*/
 int print_sign(int n)
 {
 	if (n < 0)
