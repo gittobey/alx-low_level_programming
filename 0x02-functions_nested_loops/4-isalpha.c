@@ -5,7 +5,7 @@
  *   * @c: the input to be checked
  *    *
  *     * Return: 1 if lower and 0 otherwise
- *      */
+*/
 int _isalpha(int c)
 {
 	if (c <= 122 && c >= 97)
