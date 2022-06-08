@@ -1,26 +1,41 @@
-#include "main.h"
+nclude "main.h"
 #include <stdio.h>
 /**
-*  * main - cumputes sum of all multiples of 3 and 5 below 1024
-**
-*   *
-*    * Return: void
+* print_to_98 - print time from a given number to 98
+*
+* @n: The given number
+* Return: void
 */
-int main(void)
+void print_to_98(int n)
 {
-	int i;
-	int total;
+	int a;
 
-	total = 0;
-
-	for (i = 0; i < 1024; i++)
+	if (n <= 98)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
+		for (a = n; a <= 98; a++)
+		{
+			if (a != 98)
 			{
-				total = total + i;
+				printf("%d, ", a);
 			}
+			else
+			{
+				printf("%d\n", a);
+			}
+		}
 	}
-	printf("%d\n", total);
-
-	return (0);
+	else
+	{
+		for (a = n; a >= 98; a--)
+		{
+			if (a != 98)
+			{
+				printf("%d, ", a);
+			}
+			else
+			{
+				printf("%d\n", a);
+			}
+		}
+	}
 }
