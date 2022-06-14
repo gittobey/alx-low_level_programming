@@ -1,23 +1,19 @@
 #include "main.h"
 /**
- * print_rev - function that prints a string, in reverse, followed by a new
- * line
+ * puts2 - function that prints every other character of a string,
+ * starting with the first character, followed by a new line
  *
- * @s: The string input
+ * @str: The string input
  * Return: void
 */
-void print_rev(char *s)
+void puts2(char *str)
 {
-	int i, len;
+	int i;
 
-	len = 0;
-
-	while (*(s + len) != '\0')
-		len++;
-
-	for (i = len - 1; i >= 0; i--)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		_putchar(s[i]);
+		if (i % 2 == 0)
+			_putchar(str[i]);
 	}
 	_putchar('\n');
 }
