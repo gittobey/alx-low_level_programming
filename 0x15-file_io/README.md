@@ -6,4 +6,4 @@ File 2-append_text_to_file.c is a function that appends text at the end of a fil
 
 File 3-cp.c is a program that copies the content of a file to another file.
 
-File holberton.h is the header file that contains all these function prototypes.
+File main.h is the header file that contains all these function prototypes.
